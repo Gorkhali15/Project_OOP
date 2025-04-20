@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Lutemon Games</string>
+
+    <!-- Add these new strings -->
+    <string name="select_lutemon">Select a Lutemon type</string>
+    <string name="create_lutemon">Create Lutemon</string>
+    <string name="your_lutemons">Your Lutemons</string>
+    <string name="send_to_arena">Send to Arena</string>
+    <string name="arena_lutemons">Arena Lutemons</string>
+    <string name="start_battle">Start Battle</string>
+
+    <!-- Accessibility descriptions -->
+    <string name="lutemon_type_list_desc">List of available Lutemon types</string>
+    <string name="created_lutemon_list_desc">List of created Lutemons</string>
+    <string name="arena_lutemon_list_desc">List of Lutemons in the arena</string>
+</resources>

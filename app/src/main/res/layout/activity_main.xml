@@ -1,0 +1,74 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select a Lutemon type"
+            android:textStyle="bold" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/lutemonTypeList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:nestedScrollingEnabled="false" />
+
+        <Button
+            android:id="@+id/createButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create Lutemon" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your Lutemons"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/createdLutemonList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:nestedScrollingEnabled="false" />
+
+        <Button
+            android:id="@+id/sendToArenaButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send to Arena" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Arena Lutemons"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/arenaLutemonList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:nestedScrollingEnabled="false" />
+
+        <Button
+            android:id="@+id/startBattleButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Battle" />
+
+        <TextView
+            android:id="@+id/output"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp" />
+    </LinearLayout>
+</ScrollView>
